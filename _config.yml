@@ -2,7 +2,9 @@ title: "Eunwoo’s Notes"
 tagline: "Cheminformatics · ML · Computational Chemistry"
 description: "공부하며 정리한 기록"
 url: "https://chltjs1921.github.io"
-remote_theme: cotes2020/jekyll-theme-chirpy
+
+# 기본 테마 (GitHub Pages에서 기본 지원)
+theme: minima
 
 lang: ko
 timezone: Asia/Seoul
