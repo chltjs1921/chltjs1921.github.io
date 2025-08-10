@@ -1,0 +1,44 @@
+title: "Eunwoo’s Notes"
+tagline: "Cheminformatics · ML · Computational Chemistry"
+description: "공부하며 정리한 기록"
+url: "https://your-username.github.io"
+theme: jekyll-theme-chirpy
+remote_theme: cotes2020/jekyll-theme-chirpy
+
+lang: ko
+timezone: Asia/Seoul
+
+# 글 작성 관련
+markdown: kramdown
+highlighter: rouge
+
+# 메뉴/소셜(원하면 채우기)
+social:
+  name: Eunwoo Choi
+  links:
+    - https://github.com/your-username
+
+# 수식/다이어그램
+katex: true
+mermaid: true
+
+# 댓글(giscus 사용 예정)
+comments:
+  provider: giscus
+  giscus:
+    repo: your-username/your-username.github.io
+    repo_id: ""        # 5단계에서 채움
+    category: "General"
+    category_id: ""    # 5단계에서 채움
+    mapping: "pathname"
+    reactions_enabled: true
+    input_position: "bottom"
+    emit_metadata: false
+    theme: "light"
+
+# 빌드
+plugins:
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-sitemap
+paginate: 10
