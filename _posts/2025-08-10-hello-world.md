@@ -28,7 +28,7 @@ print("hello cheminformatics")
 ````
 Mermaid 테스트:
 
-````
+````mermaid
 flowchart LR
   A[Idea] --> B[Write Post] --> C[Publish]
 ````
